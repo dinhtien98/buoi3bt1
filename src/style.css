@@ -1,0 +1,36 @@
+.student-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 1px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.student-item.active{
+    background-color: #b9b8b8;
+}
+.student-name{
+    width: 90%;
+    text-align: left;
+    font-size: 20px;
+    transform: translateY(20%);
+}
+.student-name.active{
+    text-decoration: line-through;
+}
+.student-item button{
+    text-align: right;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.inputName{
+    font-size: 30px;
+}
+.checkAll{
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    margin: 0 10px;
+}
